@@ -1,0 +1,12 @@
+@import 'admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import 'admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import 'admin-lte/dist/css/adminlte.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #212831;
+}
